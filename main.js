@@ -256,7 +256,7 @@ function displayMerchantCoupons(coupons,merchantId) {
     <article class="coupon" id="coupon-${coupon.id}">
     <h2>${coupon.attributes.name}</h2>
     <h3>${coupon.attributes.code}</h3>
-     <p>Description :${coupon.attributes.description}</p>
+    <p>${coupon.attributes.description}</p>
     <p>${coupon.attributes.percent_discount ? `${coupon.attributes.discount}% off` : `$ ${coupon.attributes.discount} off`}</p>
      <p class="merchant-name-in-item">Merchant: ${merchant}</p>
       </article>
