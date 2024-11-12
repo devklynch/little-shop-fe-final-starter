@@ -1,47 +1,23 @@
-# Little Shop - Coupon Codes | Final Project | Frontend Starter Repo
 
-This Vite Little Shop - Coupon Codes FE Final Project Boilerplate is built to consume and display the data from the BE Rails API built in the Mod 2 Final Project.  
-
-## Set Up Instructions
-
-**Note:** Do **not** clone this repo into your backend repo. Put it somewhere else as a stand alone. The BE and FE repos will remain two separate repos and you will submit the links to each.  
-
-1. Fork repo
-1. Clone forked repo and rename it `git clone <repo> <new name>`
-1. `cd` into cloned repo
-1. Run `npm install`
-1. Run `npm run dev` to start developing.
-  1. You'll see in the terminal that the project has opened at "http://localhost:5173/"
-
-## Notes
-
-This FE application is build to consume the data from your Rails API.  In order for it to work, you must have your Rails API running on localhost:3000. You will see fetch errors when running the FE without the BE API up and running.  
-
-Follow the directions in the FE requirements portion of the Little Shop Coupon Codes final project spec. When you are finished with the FE work, update this README to remove the current content and follow the template below.  
-
-______________________________________________________  
-# README Template  
-Before turning this project in, erase this line and everything above it and fill in the info below.  
-______________________________________________________  
-
-# Hang in There  
+# Coupon Codes 
 
 Link to your GitHub. Consider also providing LinkedIn link
+  Github: https://github.com/devklynch
 
 ### Abstract:
-(Briefly describe what you built and its features. What problem is the app solving? How does this application solve that problem?)
+This site shows an admin view for merchants and items. For this project, I updated the view coupons page to show the coupon information for the specified merchant.
 
 ### Installation Instructions:
-(What steps does a person have to take to get your app cloned down and running?)
+You'll fork the repo and then Run npm install and then run npm run dev to ssee it running with "http://localhost:5173/"
 
 ### Preview of App:
-(Provide ONE gif or screenshot of your application - choose the "coolest" piece of functionality to show off. gifs preferred!)
+![alt text](image.png)
 
 ### Context:
-(Give some context for the project here. How long did you have to work on it? What specific work/improvements did you contribute to this FE application?)
+The project for both backend and frontend was assigned Thursday afternoon, so I had about 5-6 days to complete both. I spent about 2 days on the front end piece specifically.
 
 ### Learning Goals:
-(What were the learning goals of this project? What tech did you work with?)
+The goal was to complete the user story that when a user clicks on the View Coupons button for any given merchant, they should see a list of that merchant's coupons
 
 ### Wins + Challenges:
-(What are 2-3 wins you have from this project? What were some challenges you faced - and how did you get over them?)
+For the frontend specifically, it was challenge to understand where the data was coming from. It took some playing around with it and using the explore prompts to understand it. It helped to have the merchant's items view as comparison. I also enjoyed working through setting up what coupon information would show and imagine use cases as an admin user.
